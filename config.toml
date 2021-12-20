@@ -1,0 +1,97 @@
+baseURL = "http://ja4tin.com"
+title = "Ja4tin"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+ignoreErrors = ["error-missing-instagram-accesstoken"]
+
+[params]
+author = "Justin Ye"
+description = "Justin Ye's personal website"
+keywords = "blog,personal"
+info = ["Content Engineer", "@Meltwater"]
+avatarURL = "images/Pic.jpg"
+# touchIcon = "images/apple-touch-icon.ico"
+favicon_32 = "images/logo.ico"
+# favicon_16 = "images/favicon-16x16.ico"
+
+since = 2021
+colorScheme = "auto"
+hideColorSchemeToggle = false
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
+
+# If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
+[params.googleTagManager]
+id = "G-CLT1G41VH4"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/ja4tin/"
+target = "_blank"
+rel	= "alternate"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-2x fa-twitter"
+weight = 2
+url = "https://twitter.com/ja4tin_/"
+target = "_blank"
+rel	= "alternate"
+
+[[params.social]]
+name = "Instagram"
+icon = "fa fa-2x fa-instagram"
+weight = 4
+url = "https://www.instagram.com/Ja4tin_/"
+target = "_blank"
+rel	= "alternate"
+
+[[params.social]]
+name = "Weibo"
+icon = "fa fa-2x fa-weibo"
+weight = 5
+url = "https://weibo.com/u/2956898460"
+target = "_blank"
+rel	= "alternate"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 4
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 1
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 2
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 3
+url = "contact/"
