@@ -1,4 +1,4 @@
-baseURL = "http://ja4tin.com"
+baseURL = "https://ja4tin.com"
 title = "Ja4tin"
 theme = "hugo-coder"
 languageCode = "en"
