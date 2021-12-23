@@ -10,17 +10,17 @@ pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 ignoreErrors = ["error-missing-instagram-accesstoken"]
 
+
 [params]
 author = "Justin Ye"
 description = "Justin Ye's personal website"
 keywords = "blog,personal"
-info = ["Content Engineer", "@Meltwater"]
-avatarURL = "images/Pic.jpg"
-# touchIcon = "images/apple-touch-icon.ico"
+info1 = "📍 Shanghai, China 🇨🇳"
+info2 = "Content Engineer [@Meltwater](https://www.Meltwater.com)"
+avatarURL = "images/avatar_1.jpg"
 favicon_32 = "images/logo.ico"
-# favicon_16 = "images/favicon-16x16.ico"
 
-since = 2021
+since = 2019
 colorScheme = "auto"
 hideColorSchemeToggle = false
 maxSeeAlsoItems = 5
@@ -74,7 +74,7 @@ target = "_blank"
 rel	= "alternate"
 
 [languages.en]
-languageName = ":uk:"
+languageName = ":en:"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -92,6 +92,6 @@ weight = 2
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "Contact me"
+name = "Contact"
 weight = 3
 url = "contact/"
