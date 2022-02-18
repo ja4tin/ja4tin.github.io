@@ -1,17 +1,12 @@
 
-# ja4tin.github.io
+## ja4tin.github.io
 
 ---
 
-This is a personal website project.
+This is a personal website Repository.
 
-[https://Ja4tin.com](https://ja4tin.com)
-
-
-#### Powered by [Hugo](https://gohugo.io/) & Theme: [Coder](https://themes.gohugo.io/themes/hugo-coder/)
+**[Ja4tin.com](https://ja4tin.com)**
 
 
----
 
-### License
-[MIT](https://choosealicense.com/licenses/mit/)
+ Powered by [Hugo](https://gohugo.io/) & Theme: [Coder](https://themes.gohugo.io/themes/hugo-coder/)
