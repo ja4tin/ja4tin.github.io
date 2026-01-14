@@ -2,7 +2,7 @@
 
 一个精心设计的个人主页项目，包含多个子页面，采用现代前端技术栈构建。
 
-## Ja4tin.com[https://ja4tin.com]
+## [Ja4tin.com](https://ja4tin.com)
 
 ## 📁 项目结构
 
