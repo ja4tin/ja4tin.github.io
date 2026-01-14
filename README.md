@@ -2,6 +2,8 @@
 
 一个精心设计的个人主页项目，包含多个子页面，采用现代前端技术栈构建。
 
+## Ja4tin.com[https://ja4tin.com]
+
 ## 📁 项目结构
 
 ```
@@ -25,7 +27,7 @@ The page/
 
 ---
 
-## 🏠 Homepage（主页）
+## 🏠 Homepage
 
 入口页面，展示个人简介和导航链接。
 
@@ -51,7 +53,7 @@ The page/
 
 ---
 
-## 🖼️ Gallery（照片画廊）
+## 🖼️ Gallery
 
 基于 React 的照片展示页面，支持懒加载和模糊占位符。
 
@@ -81,7 +83,7 @@ Gallery 包含自定义脚本 `scripts/update.js`，用于：
 
 ---
 
-## 💼 Projects（项目展示）
+## 💼 Projects
 
 交互式项目展示页面，使用 impress.js 实现 3D 幻灯片效果。
 
@@ -110,7 +112,7 @@ Gallery 包含自定义脚本 `scripts/update.js`，用于：
 
 ---
 
-## 👤 About（关于我）
+## 👤 About
 
 终端风格的个人介绍页面，支持交互式命令。
 
@@ -135,7 +137,6 @@ Gallery 包含自定义脚本 `scripts/update.js`，用于：
 - `intro` - 个人介绍
 - `skill` - 技能列表
 - `contact` - 联系方式
-- `resume` - 简历链接
 
 ---
 
