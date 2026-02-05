@@ -1,1 +1,0 @@
-(()=>{var t,n,i,o,s,u,m,r,g=document.getElementById("signature");g&&(t=g.textContent||g.innerText,g.textContent="",n=90,i=3e3,o="▋",u=0,m=!(s=80),r=t,setTimeout(function t(){var e=m?r.substring(0,u-1):r.substring(0,u+1);g.textContent=e+o,m||u!==r.length?m&&0===u?(m=!1,setTimeout(t,500)):(u=m?u-1:u+1,setTimeout(t,m?s:n)):(m=!0,setTimeout(t,i))},1e3))})();

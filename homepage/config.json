@@ -1,0 +1,50 @@
+{
+	"head": {
+		"title": "Ja4tin",
+		"description": "Author:Ja4tin,Category:Personal Blog",
+		"favicon": "assets/favicon.png"
+	},
+	"intro": {
+		"title": "Ja4tin",
+		"subtitle": "松花酿酒，春水煎茶。",
+		"enter": "enter",
+		"supportAuthor": true,
+		"background": true
+	},
+	"main": {
+		"name": "Ja4tin Ye",
+		"signature": "乐观 & 好奇 & 择机 & 专注",
+		"avatar": {
+			"link": "assets/avatar.jpg",
+			"height": "100",
+			"width": "100"
+		},
+		"ul": {
+			"first": {
+				"href": "blog/",
+				"icon": "high-voltage",
+				"text": "Blog"
+			},
+			"second": {
+				"href": "about/",
+				"icon": "man",
+				"text": "About"
+			},
+			"third": {
+				"href": "gallery/",
+				"icon": "camera",
+				"text": "Gallery"
+			},
+			"fourth": {
+				"href": "projects/",
+				"icon": "shu-smiling-face",
+				"text": "Projects"
+			},
+			"fifth": {
+				"href": "https://thinking.ja4tin.com/",
+				"icon": "crown",
+				"text": "Thinking"
+			}
+		}
+	}
+}

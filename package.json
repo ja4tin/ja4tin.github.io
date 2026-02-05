@@ -1,0 +1,16 @@
+{
+  "name": "the-page-root",
+  "version": "1.0.0",
+  "description": "Monorepo root for Ja4tin's personal homepage",
+  "main": "index.js",
+  "scripts": {
+    "build": "bash ./deploy.sh",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Ja4tin",
+  "license": "LGPL-3.0",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "about",
+  "version": "2.1.5",
+  "description": "A terminal-style portfolio component for React, perfect for creating interactive personal introductions and developer portfolios",
+  "author": "Ja4tin",
+  "homepage": "https://Ja4tin/about/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ja4tin/about.git"
+  },
+  "keywords": [
+    "react",
+    "terminal",
+    "emulator"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "prepublishOnly": "npm run build",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && nwb serve-react-demo",
+    "dev": "npm start",
+    "test": "export NODE_OPTIONS=--openssl-legacy-provider && nwb test-react",
+    "test:coverage": "export NODE_OPTIONS=--openssl-legacy-provider && nwb test-react --coverage",
+    "test:watch": "export NODE_OPTIONS=--openssl-legacy-provider && nwb test-react --server"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prop-types": "^15.7.2",
+    "react-transition-group": "^4.4.1",
+    "styled-components": "^5.2.0"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "nwb": "0.25.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "websocket-driver": ">=0.7.0"
+    }
+  }
+}

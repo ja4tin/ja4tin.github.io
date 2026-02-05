@@ -1,0 +1,59 @@
+.home-btn {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  z-index: 1000;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Comic Sans MS', 'Helvetica Neue', 'Microsoft Yahei',
+    -apple-system, sans-serif !important;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: url('../../assets/pointer.cur'),
+    pointer;
+  transition: all 0.3s ease;
+  mix-blend-mode: difference;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.home-btn:hover {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.home-btn:hover .icon {
+  transform: translateY(-2px);
+}
+
+.home-btn .icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.home-btn::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.home-btn:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .home-btn {
+    top: 20px;
+    right: 20px;
+  }
+}
