@@ -110,6 +110,51 @@ Gallery 包含自定义脚本 `scripts/update.js`，用于：
 - Font Awesome 图标
 - Google Analytics
 
+### 添加新项目指南
+
+若要在 `projects` 页面中添加新的 3D 项目卡片，请遵循以下步骤：
+
+1.  **准备素材**：
+    *   将项目的预览图（GIF 或图片）放入 `projects/src/assets/` 目录。
+
+2.  **定义 ID**：
+    *   编辑 `projects/src/constants/slideIds.ts`。
+    *   在 `SLIDE_IDS` 对象中添加一个新的唯一键值对，例如：`NEW_PROJECT: 'new-project'`。
+    *   (可选) 如果新增项目导致布局扩大，请调整 `SLIDE_POSITIONS.OVERVIEW` 的 `scale` 值（默认约 5-6）。
+
+3.  **配置数据**：
+    *   编辑 `projects/src/constants/projectsData.ts`。
+    *   **导入图片**：`import newProjectPreview from '../assets/new_project.gif';`
+    *   **添加项目对象**：在 `projectsData` 数组中添加新对象：
+        ```typescript
+        {
+          id: SLIDE_IDS.NEW_PROJECT,
+          name: 'New Project',
+          title: 'Project Title',
+          preview: newProjectPreview,
+          // 3D 坐标与旋转，需根据布局调整
+          position: { x: -1200, y: -800, z: 200, rotateY: -30 },
+          description: 'Project description...',
+          tech: ['Tech1', 'Tech2'],
+          links: [
+            { type: 'demo', url: '...', text: 'Live Demo' },
+            { type: 'code', url: '...', text: 'Github', githubRepo: 'User/Repo' }, //用于获取 GitHub Stats
+          ],
+          layout: 'standard', // or 'reverse'
+        },
+        ```
+
+4.  **添加导航图标**：
+    *   同样在 `projects/src/constants/projectsData.ts` 中。
+    *   在 `mapData` 数组中添加对应项，用于右下角的快速导航：
+        ```typescript
+        {
+          id: SLIDE_IDS.NEW_PROJECT,
+          name: 'New Project',
+          icon: 'fas fa-code', // FontAwesome 图标类名
+        },
+        ```
+
 ---
 
 ## 👤 About
